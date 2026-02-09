@@ -4,6 +4,7 @@ import predicateWithFunctional.Employee;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Consumer0 {
    public static void main(String[] args) {
@@ -21,6 +22,8 @@ public class Consumer0 {
        employees.stream().forEach(
                x-> System.out.println(x.getId() +" "+ x.getName()+" "+x.getSalary())
        );
+       Consumer<String> s = x-> System.out.println(x);
+       s.accept("hello");
 
    }
 }
