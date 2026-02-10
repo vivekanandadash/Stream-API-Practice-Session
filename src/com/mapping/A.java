@@ -14,7 +14,8 @@ public class A {
                 new Employee(3, "alice", 79500)
         );
         Map<Integer, List<Employee>> newArr = arr.stream().collect(Collectors.groupingBy(e -> e.getSalary()));
-        System.out.println(newArr);
-
+       newArr.forEach((salary ,employees)->
+               System.out.println(salary + "->" + employees.toString())
+       ) ;
     }
 }
