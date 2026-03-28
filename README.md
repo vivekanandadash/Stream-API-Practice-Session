@@ -1,8 +1,8 @@
 # 🚀 Java Streams Practice Repository
 
-This repository is designed to help you **master Java Streams API** step by step — from basics to advanced interview-level problems.
+This repository is designed to  **master Java Streams API** step by step — from basics to advanced interview-level problems.
 
-It is structured in a clean and modular way so you can easily navigate, practice, and revise concepts.
+It is structured in a clean and modular way for easily navigate, practice, and revise concepts.
 
 ---
 
