@@ -109,7 +109,6 @@ com/
 ## 🎯 Purpose of This Repository
 
 - Strengthen Java Streams fundamentals
-- Prepare for Java backend interviews (2–5 years experience)
 - Practice real-world and scenario-based problems
 - Improve problem-solving using functional programming
 
